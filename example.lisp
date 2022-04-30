@@ -37,7 +37,7 @@
 			     (:label "Capital" :slot capital)
 			     (:label "GDP (billions of current US dollars)"
 				     :slot gdp
-				     :align right
+				     :align markdown-tables::right
 				     :formatter ,#'format-gdp))))
 
 ;; Output table object as Markdown.
