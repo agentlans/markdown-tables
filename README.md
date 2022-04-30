@@ -38,7 +38,9 @@ Simply clone this repository to `~/common-lisp` or wherever ASDF can find it.
 ;; (Optionally compute the sum of a column)
 (output-markdown-file "GDP.md" *table* :sum-slot 'gdp)
 ```
-Now, `GDP.md` contains:
+Please see [example.lisp](example.lisp) for full details.
+
+After running the code, `GDP.md` contains:
 
 ```markdown
 Countries by gross domestic product (2020)
